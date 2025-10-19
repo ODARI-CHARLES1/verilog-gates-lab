@@ -30,7 +30,9 @@ module gates_tb;
   nor_gate   u_nor   (.A(A), .B(B), .y(nor_out));
   xor_gate   u_xor   (.A(A), .B(B), .y(xor_out));
   xnor_gate  u_xnor  (.A(A), .B(B), .y(xnor_out));
+  
   initial begin
+    
     $dumpfile("waveforms/gates_waveform.vcd");
     $dumpvars(0, gates_tb);
 
