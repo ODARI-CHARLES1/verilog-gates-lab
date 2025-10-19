@@ -1,0 +1,74 @@
+# -------------------------------
+# Verilog Simulation Project .gitignore
+# -------------------------------
+
+# Compiled simulation executables
+*.out
+*.o
+*.obj
+*.exe
+*.vvp
+*.vexe
+
+# Simulation output files
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.vpd
+*.wlf
+*.log
+*.jou
+*.wdb
+
+# Temporary and backup files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Build / output directories
+sim/
+build/
+output/
+waveforms/
+logs/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.user
+*.db
+*.opendb
+*.DS_Store
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ModelSim / QuestaSim specific
+transcript
+vsim.wlf
+work/
+modelsim.ini
+
+# GTKWave config
+.gtkwaverc
+*.gtkw
+
+# Icarus Verilog intermediate files
+*.vpi
+*.ivl
+
+# Archive files
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Documentation builds
+*.pdf
+*.docx
+*.pptx
