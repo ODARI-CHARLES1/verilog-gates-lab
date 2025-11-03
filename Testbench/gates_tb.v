@@ -30,6 +30,7 @@ module gates_tb;
   nor_gate   u_nor   (.A(A), .B(B), .y(nor_out));
   xor_gate   u_xor   (.A(A), .B(B), .y(xor_out));
   xnor_gate  u_xnor  (.A(A), .B(B), .y(xnor_out));
+  
   initial begin
     $dumpfile("waveforms/gates_waveform.vcd");
     $dumpvars(0, gates_tb);
@@ -47,7 +48,7 @@ module gates_tb;
   task display_values;
     begin
       $display("%0dns\t%b\t%b\t%b\t%b\t%b\t%b\t%b\t%b\t%b",
-               $time, A, B, and_out, or_out, not_out, nand_out, nor_out, xor_out, xnor_out);
+      $time, A, B, and_out, or_out, not_out, nand_out, nor_out, xor_out, xnor_out);
     end
   endtask
  
