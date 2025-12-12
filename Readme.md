@@ -14,43 +14,6 @@ The purpose of this project is to provide a hands-on introduction to digital log
 * Example waveform outputs for visualization
 * Organized folder structure for clarity and scalability
 
-# Project Structure
-
-verilog-gates-sim/
-
-│
-
-├── src/
-
-│   ├── and_gate.v
-
-│   ├── or_gate.v
-
-│   ├── not_gate.v
-
-│   ├── nand_gate.v
-
-│   ├── nor_gate.v
-
-│   ├── xor_gate.v
-
-│   └── xnor_gate.v
-
-│
-
-├── testbench/
-
-│   └── gates_tb.v
-
-│
-
-├── waveforms/
-
-│   └── gates_waveform.vcd
-
-│
-
-└── README.txt
 
 # Running the Simulation
 
